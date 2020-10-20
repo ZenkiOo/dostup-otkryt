@@ -5,25 +5,22 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    //welcome-swiper
+    // welcome-swiper
     var swiper = new Swiper('.swiper-container', {
-        cssMode: true,
-        slidesPerView: 1,
-        loop: true,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
-        hashNavigation: {
-            watchState: true,
-        },
-        mousewheel: true,
+        loop: true,
+        cssMode: true,
         keyboard: true,
-    });
+        mousewheel: true,
+        slidesPerView: 1,
+      });
 });
 
 
